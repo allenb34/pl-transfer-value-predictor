@@ -159,6 +159,31 @@ python visualize.py                # optional: predicted-vs-actual plot -> artif
 `fetch_player_stats.py` is rate-limited to football-data.org's free tier (10 requests/minute)
 and can take a few minutes to run through all 20 squads. Everything else is fast.
 
+## Automatic updates
+
+The data, model, and static site (`docs/`) refresh automatically every **Sunday at 03:00
+UTC** via GitHub Actions (`.github/workflows/refresh_data.yml`). It runs the same pipeline
+described above end to end - `fetch_player_stats.py` → `fetch_transfer_values.py` →
+`merge_dataset.py` → `train_final_model.py` → `docs/export_for_web.py` - then commits and
+pushes whatever changed in `data/`, `modeling/artifacts/`, and `docs/` using the repo's
+built-in `GITHUB_TOKEN` (no personal access token needed). If the data is identical to last
+week's, it skips the commit rather than creating an empty one.
+
+**Safety**: if any pipeline step fails (API down, rate-limited, bad data) or the resulting
+dataset has an implausibly low row count, the job fails loudly and stops *before* the
+commit step - the live site is never overwritten with broken or partial data. Each run's
+Actions log includes a summary (row counts before/after, whether a commit happened, and the
+likely cause if it failed) at the top of the run page.
+
+**Triggering it manually**: go to the repo's **Actions** tab → **Weekly data refresh** →
+**Run workflow**.
+
+**Adding/rotating the API key secret**: the workflow needs `FOOTBALL_DATA_API_KEY` available
+as a GitHub Actions secret (never committed to the repo). To add or update it:
+**Settings → Secrets and variables → Actions → New repository secret** (or edit the existing
+one), name it exactly `FOOTBALL_DATA_API_KEY`, and paste in a key from
+https://www.football-data.org/client/register.
+
 ## Future improvements
 
 - **Re-run data collection later in the season.** Once more matches are played, goals/assists
