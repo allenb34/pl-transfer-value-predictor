@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premier League Transfer Value Predictor</title>
+<style>
+  :root {
+    --purple: #38003c;
+    --accent: #00ff85;
+    --bg: #f4f4f7;
+    --card-bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #666;
+    --border: #ddd;
+    --warn-bg: #fff8e1;
+    --warn-border: #f0c674;
+    --over: #c0392b;
+    --under: #2471a3;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0 0 3rem 0;
+  }
+  header {
+    background: var(--purple);
+    color: white;
+    padding: 2rem 1.5rem 1.5rem;
+    text-align: center;
+  }
+  header h1 { margin: 0 0 0.4rem; font-size: 1.7rem; }
+  header p { margin: 0; color: #d9c7db; font-size: 0.95rem; }
+  main {
+    max-width: 720px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  .card h2 {
+    margin-top: 0;
+    font-size: 1.15rem;
+    border-bottom: 2px solid var(--purple);
+    padding-bottom: 0.5rem;
+  }
+  label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin: 0.75rem 0 0.25rem;
+    color: var(--muted);
+  }
+  input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 0.5rem 0.6rem;
+    font-size: 0.95rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: white;
+  }
+  select[multiple], select#playerSelect {
+    height: 140px;
+  }
+  button {
+    margin-top: 1rem;
+    background: var(--purple);
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  button:hover { opacity: 0.9; }
+  .warning {
+    background: var(--warn-bg);
+    border: 1px solid var(--warn-border);
+    border-radius: 6px;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.85rem;
+    margin-top: 0.75rem;
+  }
+  .result {
+    margin-top: 1rem;
+    border-top: 1px dashed var(--border);
+    padding-top: 1rem;
+  }
+  .result-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.4rem 1rem;
+    font-size: 0.9rem;
+  }
+  .result-grid .label { color: var(--muted); }
+  .result-grid .value { font-weight: 600; }
+  .big-value {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--purple);
+    margin: 0.5rem 0;
+  }
+  .diff-over { color: var(--over); }
+  .diff-under { color: var(--under); }
+  .hypothetical-badge {
+    display: inline-block;
+    background: #eee;
+    color: #444;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+  footer {
+    max-width: 720px;
+    margin: 2rem auto 0;
+    padding: 1rem 1.5rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--under); }
+  .hint { font-size: 0.8rem; color: var(--muted); margin-top: 0.25rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Premier League Transfer Value Predictor</h1>
+  <p>A Linear Regression model, running entirely in your browser - no server involved.</p>
+</header>
+
+<main>
+
+  <section class="card">
+    <h2>Look up an existing player</h2>
+    <label for="playerSearch">Search by name</label>
+    <input type="text" id="playerSearch" placeholder="Start typing a name...">
+    <label for="playerSelect">Matching players</label>
+    <select id="playerSelect" size="8"></select>
+    <div id="existingPlayerResult"></div>
+  </section>
+
+  <section class="card">
+    <h2>Custom / hypothetical player</h2>
+    <label for="customPosition">Position</label>
+    <select id="customPosition"></select>
+
+    <label for="customAge">Age</label>
+    <input type="number" id="customAge" value="25">
+
+    <label for="customGoals">Goals (this season)</label>
+    <input type="number" id="customGoals" value="0" min="0">
+
+    <label for="customAssists">Assists (this season)</label>
+    <input type="number" id="customAssists" value="0" min="0">
+
+    <button id="predictCustomBtn">Predict transfer value</button>
+    <div id="customWarnings"></div>
+    <div id="customResult"></div>
+  </section>
+
+</main>
+
+<footer>
+  <strong>Known limitations</strong> - this model is trained on only 302 players from very
+  early in the season (87.7% had 0 goals and 0 assists at the time of training), so it
+  currently predicts mostly from age and position, not real performance. It also
+  extrapolates badly outside the ranges shown as warnings below. See the
+  <a href="https://github.com/allenb34/pl-transfer-value-predictor#readme" target="_blank" rel="noopener">project README</a>
+  for the full technical writeup, including known failure cases.
+</footer>
+
+<script>
+// ---- Data embedded at build time by export_for_web.py (see docs/model_params.json /
+// docs/players.json for the same data as plain, inspectable JSON files) ----
+const MODEL_PARAMS = __MODEL_PARAMS_JSON__;
+const PLAYERS = __PLAYERS_JSON__;
+
+// ---- Prediction math: must exactly replicate sklearn's OneHotEncoder + LinearRegression ----
+
+function encodePositionByName(position) {
+  // Mirrors sklearn's OneHotEncoder: one binary column per known category,
+  // named "position_<Category>", 1 for the matching category else 0.
+  const encoded = {};
+  for (const cat of MODEL_PARAMS.position_categories) {
+    encoded["position_" + cat] = (cat === position) ? 1 : 0;
+  }
+  return encoded;
+}
+
+function buildFeatureVector(goals, assists, age, position) {
+  const values = {
+    goals: goals,
+    assists: assists,
+    age: age,
+    ...encodePositionByName(position),
+  };
+  // Look up each value by name in the exact order the model expects -
+  // never assume array order matches; assume only that every name in
+  // feature_order exists in `values`.
+  return MODEL_PARAMS.feature_order.map((name) => {
+    if (!(name in values)) {
+      throw new Error("Missing feature '" + name + "' - position may not be a trained category.");
+    }
+    return values[name];
+  });
+}
+
+function predictTransferValue(goals, assists, age, position) {
+  const x = buildFeatureVector(goals, assists, age, position);
+  let logPrediction = MODEL_PARAMS.intercept;
+  for (let i = 0; i < x.length; i++) {
+    logPrediction += MODEL_PARAMS.coefficients[i] * x[i];
+  }
+  return Math.expm1(logPrediction); // log-space -> real euros, matching predict.py
+}
+
+function formatEuros(value) {
+  return "EUR" + Math.round(value).toLocaleString("en-US");
+}
+
+// ---- Custom/hypothetical player form ----
+
+const positionSelect = document.getElementById("customPosition");
+for (const cat of MODEL_PARAMS.position_categories) {
+  const opt = document.createElement("option");
+  opt.value = cat;
+  opt.textContent = cat;
+  positionSelect.appendChild(opt);
+}
+
+document.getElementById("predictCustomBtn").addEventListener("click", () => {
+  const warningsEl = document.getElementById("customWarnings");
+  const resultEl = document.getElementById("customResult");
+  warningsEl.innerHTML = "";
+  resultEl.innerHTML = "";
+
+  const position = positionSelect.value;
+  const ageRaw = document.getElementById("customAge").value;
+  const goalsRaw = document.getElementById("customGoals").value;
+  const assistsRaw = document.getElementById("customAssists").value;
+
+  const age = parseFloat(ageRaw);
+  const goals = parseInt(goalsRaw, 10);
+  const assists = parseInt(assistsRaw, 10);
+
+  if (Number.isNaN(age) || Number.isNaN(goals) || Number.isNaN(assists)) {
+    resultEl.innerHTML = '<div class="warning">Age, goals, and assists must all be numbers.</div>';
+    return;
+  }
+  if (goals < 0 || assists < 0) {
+    resultEl.innerHTML = '<div class="warning">Goals and assists can\'t be negative.</div>';
+    return;
+  }
+
+  const warnings = [];
+  const { min_age, max_age, max_goals, max_assists } = MODEL_PARAMS.training_ranges;
+  if (age < min_age || age > max_age) {
+    warnings.push(
+      `Age ${age} is outside ${min_age}-${max_age}, the range the model was trained/validated on. ` +
+      "This prediction is an extrapolation and may be unreliable."
+    );
+  }
+  if (goals > max_goals || assists > max_assists) {
+    warnings.push(
+      `The training data only goes up to ${max_goals} goals / ${max_assists} assists this early in ` +
+      "the season. This is a log-space linear model, so goals/assists above that range extrapolate " +
+      "and the prediction can be wildly inflated - treat it with real skepticism."
+    );
+  }
+  warningsEl.innerHTML = warnings.map((w) => `<div class="warning">${w}</div>`).join("");
+
+  const predicted = predictTransferValue(goals, assists, age, position);
+  resultEl.innerHTML = `
+    <div class="result">
+      <span class="hypothetical-badge">Hypothetical player</span>
+      <div class="big-value">${formatEuros(predicted)}</div>
+      <div class="result-grid">
+        <div class="label">Position</div><div class="value">${position}</div>
+        <div class="label">Age</div><div class="value">${age}</div>
+        <div class="label">Goals</div><div class="value">${goals}</div>
+        <div class="label">Assists</div><div class="value">${assists}</div>
+      </div>
+    </div>
+  `;
+});
+
+// ---- Existing player lookup ----
+
+const searchInput = document.getElementById("playerSearch");
+const playerSelect = document.getElementById("playerSelect");
+const existingResultEl = document.getElementById("existingPlayerResult");
+
+function renderPlayerOptions(filterText) {
+  playerSelect.innerHTML = "";
+  const needle = filterText.trim().toLowerCase();
+  const matches = needle
+    ? PLAYERS.filter((p) => p.name.toLowerCase().includes(needle))
+    : PLAYERS;
+
+  matches.slice(0, 200).forEach((p) => {
+    const opt = document.createElement("option");
+    opt.value = p.name;
+    opt.textContent = `${p.name} (${p.club})`;
+    playerSelect.appendChild(opt);
+  });
+
+  if (matches.length === 0) {
+    const opt = document.createElement("option");
+    opt.textContent = "No players match that search";
+    opt.disabled = true;
+    playerSelect.appendChild(opt);
+  }
+}
+
+function showExistingPlayer(name) {
+  const player = PLAYERS.find((p) => p.name === name);
+  if (!player) return;
+
+  const predicted = predictTransferValue(player.goals, player.assists, player.age, player.position);
+  const diff = predicted - player.transfer_value;
+  const pctError = player.transfer_value ? (100 * diff / player.transfer_value) : NaN;
+  const diffClass = diff > 0 ? "diff-over" : "diff-under";
+  const diffLabel = diff > 0 ? "over-predicted" : "under-predicted";
+
+  existingResultEl.innerHTML = `
+    <div class="result">
+      <strong>${player.name}</strong> (${player.club})
+      <div class="result-grid" style="margin-top:0.5rem;">
+        <div class="label">Position</div><div class="value">${player.position}</div>
+        <div class="label">Age</div><div class="value">${player.age}</div>
+        <div class="label">Goals</div><div class="value">${player.goals}</div>
+        <div class="label">Assists</div><div class="value">${player.assists}</div>
+      </div>
+      <div class="result-grid" style="margin-top:0.75rem;">
+        <div class="label">Actual value</div><div class="value">${formatEuros(player.transfer_value)}</div>
+        <div class="label">Predicted value</div><div class="value">${formatEuros(predicted)}</div>
+        <div class="label">Difference</div><div class="value ${diffClass}">${formatEuros(Math.abs(diff))} (${diffLabel})</div>
+        <div class="label">% error</div><div class="value ${diffClass}">${pctError.toFixed(1)}%</div>
+      </div>
+    </div>
+  `;
+}
+
+searchInput.addEventListener("input", () => {
+  renderPlayerOptions(searchInput.value);
+  existingResultEl.innerHTML = "";
+});
+playerSelect.addEventListener("change", () => {
+  if (playerSelect.value) showExistingPlayer(playerSelect.value);
+});
+
+renderPlayerOptions("");
+</script>
+
+</body>
+</html>

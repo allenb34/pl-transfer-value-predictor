@@ -1,0 +1,33 @@
+{
+  "feature_order": [
+    "goals",
+    "assists",
+    "age",
+    "position_Defence",
+    "position_Goalkeeper",
+    "position_Midfield",
+    "position_Offence"
+  ],
+  "coefficients": [
+    0.3988632179040959,
+    0.34762352192658486,
+    -0.10209673938018315,
+    0.3233796965452525,
+    -0.9649846902033377,
+    0.14909000596401567,
+    0.4925149876940679
+  ],
+  "intercept": 19.09374611215774,
+  "position_categories": [
+    "Defence",
+    "Goalkeeper",
+    "Midfield",
+    "Offence"
+  ],
+  "training_ranges": {
+    "min_age": 15,
+    "max_age": 45,
+    "max_goals": 3,
+    "max_assists": 2
+  }
+}
