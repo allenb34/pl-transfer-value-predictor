@@ -147,7 +147,7 @@
     "name": "Bukayo Saka",
     "club": "Arsenal",
     "position": "Offence",
-    "age": 24,
+    "age": 25,
     "goals": 2,
     "assists": 0,
     "transfer_value": 110000000.0
@@ -471,7 +471,7 @@
     "name": "Kiernan Dewsbury Hall",
     "club": "Everton",
     "position": "Midfield",
-    "age": 27,
+    "age": 28,
     "goals": 1,
     "assists": 0,
     "transfer_value": 35000000.0
@@ -823,7 +823,7 @@
     "club": "Liverpool",
     "position": "Offence",
     "age": 26,
-    "goals": 1,
+    "goals": 3,
     "assists": 0,
     "transfer_value": 85000000.0
   },
@@ -833,7 +833,7 @@
     "position": "Offence",
     "age": 27,
     "goals": 1,
-    "assists": 1,
+    "assists": 3,
     "transfer_value": 60000000.0
   },
   {
@@ -985,7 +985,7 @@
     "club": "Man City",
     "position": "Offence",
     "age": 26,
-    "goals": 2,
+    "goals": 3,
     "assists": 0,
     "transfer_value": 200000000.0
   },
@@ -1237,7 +1237,7 @@
     "club": "Newcastle",
     "position": "Midfield",
     "age": 25,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 35000000.0
   },
@@ -1273,7 +1273,7 @@
     "club": "Newcastle",
     "position": "Offence",
     "age": 28,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 32000000.0
   },
@@ -1363,7 +1363,7 @@
     "club": "Sunderland",
     "position": "Midfield",
     "age": 26,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 28000000.0
   },
@@ -1420,15 +1420,6 @@
     "goals": 0,
     "assists": 0,
     "transfer_value": 30000000.0
-  },
-  {
-    "name": "Simon Adingra",
-    "club": "Sunderland",
-    "position": "Offence",
-    "age": 24,
-    "goals": 0,
-    "assists": 0,
-    "transfer_value": 22000000.0
   },
   {
     "name": "Romaine Mundle",
@@ -1624,7 +1615,7 @@
     "club": "Leeds United",
     "position": "Defence",
     "age": 26,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 15000000.0
   },
@@ -1957,7 +1948,7 @@
     "club": "Crystal Palace",
     "position": "Defence",
     "age": 27,
-    "goals": 0,
+    "goals": 2,
     "assists": 0,
     "transfer_value": 25000000.0
   },
@@ -2016,15 +2007,6 @@
     "transfer_value": 10000000.0
   },
   {
-    "name": "Justin Devenny",
-    "club": "Crystal Palace",
-    "position": "Midfield",
-    "age": 22,
-    "goals": 0,
-    "assists": 0,
-    "transfer_value": 12000000.0
-  },
-  {
     "name": "Adam Wharton",
     "club": "Crystal Palace",
     "position": "Midfield",
@@ -2068,15 +2050,6 @@
     "goals": 0,
     "assists": 0,
     "transfer_value": 25000000.0
-  },
-  {
-    "name": "Romain Esse",
-    "club": "Crystal Palace",
-    "position": "Offence",
-    "age": 27,
-    "goals": 0,
-    "assists": 0,
-    "transfer_value": 10000000.0
   },
   {
     "name": "Jason Steele",
@@ -2138,7 +2111,7 @@
     "position": "Defence",
     "age": 25,
     "goals": 1,
-    "assists": 0,
+    "assists": 1,
     "transfer_value": 22000000.0
   },
   {
@@ -2299,7 +2272,7 @@
     "club": "Brentford",
     "position": "Midfield",
     "age": 28,
-    "goals": 1,
+    "goals": 2,
     "assists": 0,
     "transfer_value": 16000000.0
   },
@@ -2461,7 +2434,7 @@
     "club": "Bournemouth",
     "position": "Midfield",
     "age": 27,
-    "goals": 1,
+    "goals": 2,
     "assists": 0,
     "transfer_value": 25000000.0
   },
@@ -2565,15 +2538,6 @@
     "transfer_value": 75000000.0
   },
   {
-    "name": "Martinelli",
-    "club": "Arsenal",
-    "position": "Offence",
-    "age": 25,
-    "goals": 0,
-    "assists": 0,
-    "transfer_value": 45000000.0
-  },
-  {
     "name": "Victor Nilsson-Lindel\u00f6f",
     "club": "Aston Villa",
     "position": "Defence",
@@ -2605,7 +2569,7 @@
     "club": "Fulham",
     "position": "Midfield",
     "age": 19,
-    "goals": 1,
+    "goals": 2,
     "assists": 0,
     "transfer_value": 25000000.0
   },
