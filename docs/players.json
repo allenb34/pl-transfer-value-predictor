@@ -94,7 +94,7 @@
     "club": "Arsenal",
     "position": "Midfield",
     "age": 27,
-    "goals": 1,
+    "goals": 2,
     "assists": 0,
     "transfer_value": 65000000.0
   },
@@ -130,7 +130,7 @@
     "club": "Arsenal",
     "position": "Offence",
     "age": 27,
-    "goals": 1,
+    "goals": 2,
     "assists": 0,
     "transfer_value": 55000000.0
   },
@@ -148,7 +148,7 @@
     "club": "Arsenal",
     "position": "Offence",
     "age": 25,
-    "goals": 2,
+    "goals": 3,
     "assists": 0,
     "transfer_value": 110000000.0
   },
@@ -274,7 +274,7 @@
     "club": "Aston Villa",
     "position": "Offence",
     "age": 20,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 10000000.0
   },
@@ -365,7 +365,7 @@
     "position": "Midfield",
     "age": 24,
     "goals": 2,
-    "assists": 1,
+    "assists": 2,
     "transfer_value": 100000000.0
   },
   {
@@ -391,8 +391,8 @@
     "club": "Chelsea",
     "position": "Offence",
     "age": 24,
-    "goals": 2,
-    "assists": 2,
+    "goals": 3,
+    "assists": 3,
     "transfer_value": 80000000.0
   },
   {
@@ -507,7 +507,7 @@
     "name": "Jack Grealish",
     "club": "Everton",
     "position": "Offence",
-    "age": 30,
+    "age": 31,
     "goals": 0,
     "assists": 0,
     "transfer_value": 20000000.0
@@ -1074,7 +1074,7 @@
     "name": "Bruno Fernandes",
     "club": "Man United",
     "position": "Midfield",
-    "age": 31,
+    "age": 32,
     "goals": 3,
     "assists": 1,
     "transfer_value": 35000000.0
@@ -1120,7 +1120,7 @@
     "club": "Man United",
     "position": "Offence",
     "age": 27,
-    "goals": 1,
+    "goals": 2,
     "assists": 0,
     "transfer_value": 75000000.0
   },
@@ -1147,7 +1147,7 @@
     "club": "Man United",
     "position": "Offence",
     "age": 23,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 75000000.0
   },
@@ -1470,7 +1470,7 @@
     "name": "Pedro Porro",
     "club": "Tottenham",
     "position": "Defence",
-    "age": 26,
+    "age": 27,
     "goals": 0,
     "assists": 0,
     "transfer_value": 35000000.0
@@ -1677,7 +1677,7 @@
     "name": "Ao Tanaka",
     "club": "Leeds United",
     "position": "Midfield",
-    "age": 27,
+    "age": 28,
     "goals": 0,
     "assists": 0,
     "transfer_value": 13000000.0
@@ -1841,7 +1841,7 @@
     "position": "Midfield",
     "age": 26,
     "goals": 1,
-    "assists": 1,
+    "assists": 2,
     "transfer_value": 70000000.0
   },
   {
@@ -1912,7 +1912,7 @@
     "club": "Nottingham",
     "position": "Offence",
     "age": 25,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 25000000.0
   },
@@ -2335,7 +2335,7 @@
     "club": "Brentford",
     "position": "Offence",
     "age": 24,
-    "goals": 1,
+    "goals": 3,
     "assists": 0,
     "transfer_value": 35000000.0
   },
@@ -2434,7 +2434,7 @@
     "club": "Bournemouth",
     "position": "Midfield",
     "age": 27,
-    "goals": 2,
+    "goals": 3,
     "assists": 0,
     "transfer_value": 25000000.0
   },
@@ -2443,7 +2443,7 @@
     "club": "Bournemouth",
     "position": "Midfield",
     "age": 27,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 25000000.0
   },
