@@ -12,7 +12,7 @@
     "name": "David Raya",
     "club": "Arsenal",
     "position": "Goalkeeper",
-    "age": 30,
+    "age": 31,
     "goals": 0,
     "assists": 0,
     "transfer_value": 30000000.0
@@ -238,7 +238,7 @@
     "club": "Aston Villa",
     "position": "Midfield",
     "age": 29,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 16000000.0
   },
@@ -428,7 +428,7 @@
     "position": "Defence",
     "age": 33,
     "goals": 1,
-    "assists": 0,
+    "assists": 1,
     "transfer_value": 5000000.0
   },
   {
@@ -517,7 +517,7 @@
     "club": "Everton",
     "position": "Offence",
     "age": 26,
-    "goals": 1,
+    "goals": 2,
     "assists": 0,
     "transfer_value": 30000000.0
   },
@@ -985,7 +985,7 @@
     "club": "Man City",
     "position": "Offence",
     "age": 26,
-    "goals": 3,
+    "goals": 4,
     "assists": 0,
     "transfer_value": 200000000.0
   },
@@ -1219,7 +1219,7 @@
     "club": "Newcastle",
     "position": "Midfield",
     "age": 27,
-    "goals": 1,
+    "goals": 2,
     "assists": 0,
     "transfer_value": 14000000.0
   },
@@ -1274,7 +1274,7 @@
     "position": "Offence",
     "age": 28,
     "goals": 1,
-    "assists": 0,
+    "assists": 2,
     "transfer_value": 32000000.0
   },
   {
@@ -1525,7 +1525,7 @@
     "club": "Tottenham",
     "position": "Midfield",
     "age": 26,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 32000000.0
   },
@@ -1542,7 +1542,7 @@
     "name": "Dominic Solanke",
     "club": "Tottenham",
     "position": "Offence",
-    "age": 28,
+    "age": 29,
     "goals": 0,
     "assists": 0,
     "transfer_value": 28000000.0
@@ -1615,7 +1615,7 @@
     "club": "Leeds United",
     "position": "Defence",
     "age": 26,
-    "goals": 1,
+    "goals": 2,
     "assists": 0,
     "transfer_value": 15000000.0
   },
@@ -1668,7 +1668,7 @@
     "name": "Ethan Ampadu",
     "club": "Leeds United",
     "position": "Midfield",
-    "age": 25,
+    "age": 26,
     "goals": 0,
     "assists": 0,
     "transfer_value": 30000000.0
@@ -1714,8 +1714,8 @@
     "club": "Leeds United",
     "position": "Offence",
     "age": 29,
-    "goals": 1,
-    "assists": 0,
+    "goals": 2,
+    "assists": 1,
     "transfer_value": 22000000.0
   },
   {
@@ -1741,7 +1741,7 @@
     "club": "Leeds United",
     "position": "Offence",
     "age": 26,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 25000000.0
   },
@@ -2083,7 +2083,7 @@
     "club": "Brighton Hove",
     "position": "Defence",
     "age": 34,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 3500000.0
   },
@@ -2111,7 +2111,7 @@
     "position": "Defence",
     "age": 25,
     "goals": 1,
-    "assists": 1,
+    "assists": 2,
     "transfer_value": 22000000.0
   },
   {
@@ -2119,8 +2119,8 @@
     "club": "Brighton Hove",
     "position": "Midfield",
     "age": 22,
-    "goals": 0,
-    "assists": 0,
+    "goals": 1,
+    "assists": 1,
     "transfer_value": 35000000.0
   },
   {
@@ -2146,7 +2146,7 @@
     "club": "Brighton Hove",
     "position": "Midfield",
     "age": 20,
-    "goals": 1,
+    "goals": 2,
     "assists": 0,
     "transfer_value": 12000000.0
   },
@@ -2182,8 +2182,8 @@
     "club": "Brighton Hove",
     "position": "Offence",
     "age": 19,
-    "goals": 0,
-    "assists": 0,
+    "goals": 2,
+    "assists": 1,
     "transfer_value": 25000000.0
   },
   {
@@ -2308,7 +2308,7 @@
     "club": "Brentford",
     "position": "Midfield",
     "age": 24,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 8000000.0
   },
@@ -2668,7 +2668,7 @@
     "club": "Brentford",
     "position": "Offence",
     "age": 25,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 65000000.0
   },
