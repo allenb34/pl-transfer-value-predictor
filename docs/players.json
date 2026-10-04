@@ -3,7 +3,7 @@
     "name": "Kepa Arrizabalaga",
     "club": "Arsenal",
     "position": "Goalkeeper",
-    "age": 31,
+    "age": 32,
     "goals": 0,
     "assists": 0,
     "transfer_value": 5000000.0
@@ -687,7 +687,7 @@
     "name": "Giorgi Mamardashvili",
     "club": "Liverpool",
     "position": "Goalkeeper",
-    "age": 25,
+    "age": 26,
     "goals": 0,
     "assists": 0,
     "transfer_value": 28000000.0
@@ -2577,7 +2577,7 @@
     "name": "Alisson Becker",
     "club": "Liverpool",
     "position": "Goalkeeper",
-    "age": 33,
+    "age": 34,
     "goals": 0,
     "assists": 0,
     "transfer_value": 15000000.0

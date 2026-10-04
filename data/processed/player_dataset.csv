@@ -1,5 +1,5 @@
 name,club,position,age,goals,assists,transfer_value,log_transfer_value
-Kepa Arrizabalaga,Arsenal,Goalkeeper,31,0,0,5000000.0,15.424948670398354
+Kepa Arrizabalaga,Arsenal,Goalkeeper,32,0,0,5000000.0,15.424948670398354
 David Raya,Arsenal,Goalkeeper,31,0,0,30000000.0,17.216707972959764
 Ben White,Arsenal,Defence,28,0,0,30000000.0,17.216707972959764
 William Saliba,Arsenal,Defence,25,0,0,100000000.0,18.420680753952364
@@ -75,7 +75,7 @@ Alex Iwobi,Fulham,Offence,30,0,0,20000000.0,16.811242881518265
 Rodrigo Muniz,Fulham,Offence,25,0,0,20000000.0,16.811242881518265
 Jonah Kusi-Asare,Fulham,Offence,19,0,0,3000000.0,14.914123179965662
 Freddie Woodman,Liverpool,Goalkeeper,29,0,0,3000000.0,14.914123179965662
-Giorgi Mamardashvili,Liverpool,Goalkeeper,25,0,0,28000000.0,17.147715103853763
+Giorgi Mamardashvili,Liverpool,Goalkeeper,26,0,0,28000000.0,17.147715103853763
 Harvey Davies,Liverpool,Goalkeeper,23,0,0,500000.0,13.122365377402328
 Joe Gomez,Liverpool,Defence,29,0,0,13000000.0,16.380459992348886
 Virgil van Dijk,Liverpool,Defence,35,0,0,15000000.0,16.52356082573315
@@ -285,7 +285,7 @@ Victor Nilsson-Lindelöf,Aston Villa,Defence,32,0,0,5000000.0,15.424948670398354
 Jamie Bynoe-Gittens,Chelsea,Offence,22,0,0,30000000.0,17.216707972959764
 Vitalii Mykolenko,Everton,Defence,27,0,0,25000000.0,17.034386422832473
 Joshua King,Fulham,Midfield,19,2,0,25000000.0,17.034386422832473
-Alisson Becker,Liverpool,Goalkeeper,33,0,0,15000000.0,16.52356082573315
+Alisson Becker,Liverpool,Goalkeeper,34,0,0,15000000.0,16.52356082573315
 Valentino Livramento,Newcastle,Defence,23,0,0,45000000.0,17.622173069956816
 Reinildo,Sunderland,Defence,32,0,0,4000000.0,15.201805169084134
 Daniel Ballard,Sunderland,Defence,27,0,0,20000000.0,16.811242881518265
