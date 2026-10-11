@@ -21,7 +21,7 @@
     "name": "Ben White",
     "club": "Arsenal",
     "position": "Defence",
-    "age": 28,
+    "age": 29,
     "goals": 0,
     "assists": 0,
     "transfer_value": 30000000.0
@@ -58,8 +58,8 @@
     "club": "Arsenal",
     "position": "Defence",
     "age": 24,
-    "goals": 0,
-    "assists": 0,
+    "goals": 1,
+    "assists": 2,
     "transfer_value": 55000000.0
   },
   {
@@ -247,8 +247,8 @@
     "club": "Aston Villa",
     "position": "Midfield",
     "age": 31,
-    "goals": 0,
-    "assists": 0,
+    "goals": 1,
+    "assists": 2,
     "transfer_value": 13000000.0
   },
   {
@@ -365,7 +365,7 @@
     "position": "Midfield",
     "age": 24,
     "goals": 2,
-    "assists": 2,
+    "assists": 3,
     "transfer_value": 100000000.0
   },
   {
@@ -383,7 +383,7 @@
     "position": "Offence",
     "age": 26,
     "goals": 1,
-    "assists": 0,
+    "assists": 1,
     "transfer_value": 60000000.0
   },
   {
@@ -391,7 +391,7 @@
     "club": "Chelsea",
     "position": "Offence",
     "age": 25,
-    "goals": 3,
+    "goals": 5,
     "assists": 3,
     "transfer_value": 80000000.0
   },
@@ -580,7 +580,7 @@
     "club": "Fulham",
     "position": "Defence",
     "age": 26,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 22000000.0
   },
@@ -588,7 +588,7 @@
     "name": "Kenny Tete",
     "club": "Fulham",
     "position": "Defence",
-    "age": 30,
+    "age": 31,
     "goals": 0,
     "assists": 0,
     "transfer_value": 8000000.0
@@ -1120,7 +1120,7 @@
     "club": "Man United",
     "position": "Offence",
     "age": 27,
-    "goals": 2,
+    "goals": 3,
     "assists": 0,
     "transfer_value": 75000000.0
   },
@@ -1130,7 +1130,7 @@
     "position": "Offence",
     "age": 27,
     "goals": 1,
-    "assists": 1,
+    "assists": 2,
     "transfer_value": 75000000.0
   },
   {
@@ -1543,7 +1543,7 @@
     "club": "Tottenham",
     "position": "Offence",
     "age": 29,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 28000000.0
   },
@@ -1624,7 +1624,7 @@
     "club": "Leeds United",
     "position": "Defence",
     "age": 28,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 12000000.0
   },
@@ -1750,7 +1750,7 @@
     "club": "Ipswich Town",
     "position": "Defence",
     "age": 27,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 16000000.0
   },
@@ -1803,7 +1803,7 @@
     "name": "Ola Aina",
     "club": "Nottingham",
     "position": "Defence",
-    "age": 29,
+    "age": 30,
     "goals": 0,
     "assists": 0,
     "transfer_value": 18000000.0
@@ -2091,7 +2091,7 @@
     "name": "Ferdi Kad\u0131o\u011flu",
     "club": "Brighton Hove",
     "position": "Defence",
-    "age": 26,
+    "age": 27,
     "goals": 0,
     "assists": 0,
     "transfer_value": 35000000.0
@@ -2110,7 +2110,7 @@
     "club": "Brighton Hove",
     "position": "Defence",
     "age": 25,
-    "goals": 1,
+    "goals": 2,
     "assists": 2,
     "transfer_value": 22000000.0
   },
@@ -2118,7 +2118,7 @@
     "name": "Yasin Ayari",
     "club": "Brighton Hove",
     "position": "Midfield",
-    "age": 22,
+    "age": 23,
     "goals": 1,
     "assists": 1,
     "transfer_value": 35000000.0
@@ -2227,7 +2227,7 @@
     "club": "Brentford",
     "position": "Defence",
     "age": 28,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 18000000.0
   },
@@ -2326,8 +2326,8 @@
     "club": "Brentford",
     "position": "Midfield",
     "age": 22,
-    "goals": 0,
-    "assists": 0,
+    "goals": 1,
+    "assists": 1,
     "transfer_value": 32000000.0
   },
   {
@@ -2505,9 +2505,9 @@
     "name": "Evanilson",
     "club": "Bournemouth",
     "position": "Offence",
-    "age": 26,
-    "goals": 0,
-    "assists": 0,
+    "age": 27,
+    "goals": 1,
+    "assists": 3,
     "transfer_value": 35000000.0
   },
   {
@@ -2676,7 +2676,7 @@
     "name": "\u0110or\u0111e Petrovi\u0107",
     "club": "Bournemouth",
     "position": "Goalkeeper",
-    "age": 26,
+    "age": 27,
     "goals": 0,
     "assists": 0,
     "transfer_value": 28000000.0
