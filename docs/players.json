@@ -246,7 +246,7 @@
     "name": "John McGinn",
     "club": "Aston Villa",
     "position": "Midfield",
-    "age": 31,
+    "age": 32,
     "goals": 1,
     "assists": 2,
     "transfer_value": 13000000.0
@@ -382,7 +382,7 @@
     "club": "Chelsea",
     "position": "Offence",
     "age": 26,
-    "goals": 1,
+    "goals": 3,
     "assists": 1,
     "transfer_value": 60000000.0
   },
@@ -472,8 +472,8 @@
     "club": "Everton",
     "position": "Midfield",
     "age": 28,
-    "goals": 1,
-    "assists": 0,
+    "goals": 2,
+    "assists": 1,
     "transfer_value": 35000000.0
   },
   {
@@ -517,7 +517,7 @@
     "club": "Everton",
     "position": "Offence",
     "age": 26,
-    "goals": 2,
+    "goals": 3,
     "assists": 0,
     "transfer_value": 30000000.0
   },
@@ -612,6 +612,15 @@
     "transfer_value": 28000000.0
   },
   {
+    "name": "Alex Iwobi",
+    "club": "Fulham",
+    "position": "Midfield",
+    "age": 30,
+    "goals": 1,
+    "assists": 0,
+    "transfer_value": 20000000.0
+  },
+  {
     "name": "Tom Cairney",
     "club": "Fulham",
     "position": "Midfield",
@@ -643,15 +652,6 @@
     "club": "Fulham",
     "position": "Midfield",
     "age": 26,
-    "goals": 0,
-    "assists": 0,
-    "transfer_value": 20000000.0
-  },
-  {
-    "name": "Alex Iwobi",
-    "club": "Fulham",
-    "position": "Offence",
-    "age": 30,
     "goals": 0,
     "assists": 0,
     "transfer_value": 20000000.0
@@ -801,6 +801,15 @@
     "transfer_value": 80000000.0
   },
   {
+    "name": "James McConnell",
+    "club": "Liverpool",
+    "position": "Midfield",
+    "age": 22,
+    "goals": 0,
+    "assists": 0,
+    "transfer_value": 2000000.0
+  },
+  {
     "name": "Trey Nyoni",
     "club": "Liverpool",
     "position": "Midfield",
@@ -823,7 +832,7 @@
     "club": "Liverpool",
     "position": "Offence",
     "age": 27,
-    "goals": 4,
+    "goals": 5,
     "assists": 0,
     "transfer_value": 85000000.0
   },
@@ -914,7 +923,7 @@
     "position": "Defence",
     "age": 24,
     "goals": 1,
-    "assists": 2,
+    "assists": 3,
     "transfer_value": 70000000.0
   },
   {
@@ -958,8 +967,8 @@
     "club": "Man City",
     "position": "Midfield",
     "age": 26,
-    "goals": 0,
-    "assists": 0,
+    "goals": 1,
+    "assists": 2,
     "transfer_value": 70000000.0
   },
   {
@@ -967,7 +976,7 @@
     "club": "Man City",
     "position": "Midfield",
     "age": 23,
-    "goals": 3,
+    "goals": 4,
     "assists": 2,
     "transfer_value": 90000000.0
   },
@@ -985,7 +994,7 @@
     "club": "Man City",
     "position": "Offence",
     "age": 26,
-    "goals": 5,
+    "goals": 8,
     "assists": 0,
     "transfer_value": 200000000.0
   },
@@ -994,8 +1003,8 @@
     "club": "Man City",
     "position": "Offence",
     "age": 24,
-    "goals": 0,
-    "assists": 0,
+    "goals": 1,
+    "assists": 1,
     "transfer_value": 75000000.0
   },
   {
@@ -1107,15 +1116,6 @@
     "transfer_value": 70000000.0
   },
   {
-    "name": "Jack Fletcher",
-    "club": "Man United",
-    "position": "Midfield",
-    "age": 19,
-    "goals": 0,
-    "assists": 0,
-    "transfer_value": 1000000.0
-  },
-  {
     "name": "Bryan Mbeumo",
     "club": "Man United",
     "position": "Offence",
@@ -1201,7 +1201,7 @@
     "club": "Newcastle",
     "position": "Defence",
     "age": 26,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 35000000.0
   },
@@ -1368,15 +1368,6 @@
     "transfer_value": 28000000.0
   },
   {
-    "name": "Abdoullah Ba",
-    "club": "Sunderland",
-    "position": "Midfield",
-    "age": 23,
-    "goals": 0,
-    "assists": 0,
-    "transfer_value": 1500000.0
-  },
-  {
     "name": "Habib Diarra",
     "club": "Sunderland",
     "position": "Midfield",
@@ -1420,6 +1411,15 @@
     "goals": 3,
     "assists": 0,
     "transfer_value": 30000000.0
+  },
+  {
+    "name": "Abdoullah Ba",
+    "club": "Sunderland",
+    "position": "Offence",
+    "age": 23,
+    "goals": 0,
+    "assists": 0,
+    "transfer_value": 1500000.0
   },
   {
     "name": "Romaine Mundle",
@@ -1775,7 +1775,7 @@
   {
     "name": "Kasey McAteer",
     "club": "Ipswich Town",
-    "position": "Midfield",
+    "position": "Offence",
     "age": 24,
     "goals": 0,
     "assists": 0,
@@ -1794,7 +1794,7 @@
     "name": "Nikola Milenkovi\u0107",
     "club": "Nottingham",
     "position": "Defence",
-    "age": 28,
+    "age": 29,
     "goals": 0,
     "assists": 0,
     "transfer_value": 28000000.0
@@ -1875,7 +1875,7 @@
     "name": "James McAtee",
     "club": "Nottingham",
     "position": "Midfield",
-    "age": 23,
+    "age": 24,
     "goals": 0,
     "assists": 0,
     "transfer_value": 18000000.0
@@ -1903,7 +1903,7 @@
     "club": "Nottingham",
     "position": "Offence",
     "age": 25,
-    "goals": 1,
+    "goals": 2,
     "assists": 0,
     "transfer_value": 32000000.0
   },
@@ -1975,7 +1975,7 @@
     "club": "Crystal Palace",
     "position": "Midfield",
     "age": 31,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 6000000.0
   },
@@ -1984,8 +1984,8 @@
     "club": "Crystal Palace",
     "position": "Midfield",
     "age": 30,
-    "goals": 0,
-    "assists": 0,
+    "goals": 1,
+    "assists": 3,
     "transfer_value": 10000000.0
   },
   {
@@ -2190,7 +2190,7 @@
     "name": "Ellery Balcombe",
     "club": "Brentford",
     "position": "Goalkeeper",
-    "age": 26,
+    "age": 27,
     "goals": 0,
     "assists": 0,
     "transfer_value": 400000.0
@@ -2239,6 +2239,15 @@
     "goals": 0,
     "assists": 0,
     "transfer_value": 16000000.0
+  },
+  {
+    "name": "Keane Lewis-Potter",
+    "club": "Brentford",
+    "position": "Defence",
+    "age": 25,
+    "goals": 2,
+    "assists": 1,
+    "transfer_value": 25000000.0
   },
   {
     "name": "Nathan Collins",
@@ -2293,15 +2302,6 @@
     "goals": 0,
     "assists": 0,
     "transfer_value": 30000000.0
-  },
-  {
-    "name": "Keane Lewis-Potter",
-    "club": "Brentford",
-    "position": "Midfield",
-    "age": 25,
-    "goals": 1,
-    "assists": 1,
-    "transfer_value": 25000000.0
   },
   {
     "name": "Fabio Carvalho",
@@ -2430,15 +2430,6 @@
     "transfer_value": 11000000.0
   },
   {
-    "name": "Marcus Tavernier",
-    "club": "Bournemouth",
-    "position": "Midfield",
-    "age": 27,
-    "goals": 3,
-    "assists": 0,
-    "transfer_value": 25000000.0
-  },
-  {
     "name": "Justin Kluivert",
     "club": "Bournemouth",
     "position": "Midfield",
@@ -2484,15 +2475,6 @@
     "transfer_value": 12000000.0
   },
   {
-    "name": "Ben Winterburn",
-    "club": "Bournemouth",
-    "position": "Midfield",
-    "age": 22,
-    "goals": 0,
-    "assists": 0,
-    "transfer_value": 450000.0
-  },
-  {
     "name": "David Brooks",
     "club": "Bournemouth",
     "position": "Offence",
@@ -2500,6 +2482,15 @@
     "goals": 0,
     "assists": 0,
     "transfer_value": 12000000.0
+  },
+  {
+    "name": "Marcus Tavernier",
+    "club": "Bournemouth",
+    "position": "Offence",
+    "age": 27,
+    "goals": 3,
+    "assists": 0,
+    "transfer_value": 25000000.0
   },
   {
     "name": "Evanilson",
@@ -2658,7 +2649,7 @@
     "name": "H\u00e1kon Rafn Valdimarsson",
     "club": "Brentford",
     "position": "Goalkeeper",
-    "age": 24,
+    "age": 25,
     "goals": 0,
     "assists": 0,
     "transfer_value": 2500000.0
@@ -2669,7 +2660,7 @@
     "position": "Offence",
     "age": 25,
     "goals": 1,
-    "assists": 0,
+    "assists": 1,
     "transfer_value": 65000000.0
   },
   {
