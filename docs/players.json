@@ -157,7 +157,7 @@
     "club": "Arsenal",
     "position": "Offence",
     "age": 24,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 50000000.0
   },
@@ -768,7 +768,7 @@
     "name": "Dominik Szoboszlai",
     "club": "Liverpool",
     "position": "Midfield",
-    "age": 25,
+    "age": 26,
     "goals": 1,
     "assists": 0,
     "transfer_value": 100000000.0
@@ -822,7 +822,7 @@
     "name": "Federico Chiesa",
     "club": "Liverpool",
     "position": "Offence",
-    "age": 28,
+    "age": 29,
     "goals": 0,
     "assists": 0,
     "transfer_value": 13000000.0
@@ -1120,7 +1120,7 @@
     "club": "Man United",
     "position": "Offence",
     "age": 27,
-    "goals": 3,
+    "goals": 4,
     "assists": 0,
     "transfer_value": 75000000.0
   },
@@ -1213,6 +1213,15 @@
     "goals": 0,
     "assists": 0,
     "transfer_value": 45000000.0
+  },
+  {
+    "name": "Lewis Hall",
+    "club": "Newcastle",
+    "position": "Defence",
+    "age": 22,
+    "goals": 1,
+    "assists": 1,
+    "transfer_value": 40000000.0
   },
   {
     "name": "Joe Willock",
@@ -1462,7 +1471,7 @@
     "club": "Tottenham",
     "position": "Defence",
     "age": 33,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 3000000.0
   },
@@ -1516,7 +1525,7 @@
     "club": "Tottenham",
     "position": "Midfield",
     "age": 29,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 20000000.0
   },
@@ -1544,7 +1553,7 @@
     "position": "Offence",
     "age": 29,
     "goals": 1,
-    "assists": 0,
+    "assists": 1,
     "transfer_value": 28000000.0
   },
   {
@@ -1596,7 +1605,7 @@
     "name": "John Egan",
     "club": "Hull City",
     "position": "Defence",
-    "age": 33,
+    "age": 34,
     "goals": 0,
     "assists": 0,
     "transfer_value": 1000000.0
@@ -1632,7 +1641,7 @@
     "name": "Joe Rodon",
     "club": "Leeds United",
     "position": "Defence",
-    "age": 28,
+    "age": 29,
     "goals": 0,
     "assists": 0,
     "transfer_value": 18000000.0
@@ -1704,7 +1713,7 @@
     "name": "Brenden Aaronson",
     "club": "Leeds United",
     "position": "Midfield",
-    "age": 25,
+    "age": 26,
     "goals": 0,
     "assists": 0,
     "transfer_value": 22000000.0
@@ -1714,7 +1723,7 @@
     "club": "Leeds United",
     "position": "Offence",
     "age": 29,
-    "goals": 2,
+    "goals": 3,
     "assists": 1,
     "transfer_value": 22000000.0
   },
@@ -1813,7 +1822,7 @@
     "club": "Nottingham",
     "position": "Defence",
     "age": 25,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 28000000.0
   },
@@ -1902,7 +1911,7 @@
     "name": "Dan Ndoye",
     "club": "Nottingham",
     "position": "Offence",
-    "age": 25,
+    "age": 26,
     "goals": 2,
     "assists": 0,
     "transfer_value": 32000000.0
@@ -1974,7 +1983,7 @@
     "name": "Jefferson Lerma",
     "club": "Crystal Palace",
     "position": "Midfield",
-    "age": 31,
+    "age": 32,
     "goals": 1,
     "assists": 0,
     "transfer_value": 6000000.0
@@ -2119,7 +2128,7 @@
     "club": "Brighton Hove",
     "position": "Midfield",
     "age": 23,
-    "goals": 1,
+    "goals": 2,
     "assists": 1,
     "transfer_value": 35000000.0
   },
@@ -2128,8 +2137,8 @@
     "club": "Brighton Hove",
     "position": "Midfield",
     "age": 23,
-    "goals": 0,
-    "assists": 0,
+    "goals": 1,
+    "assists": 2,
     "transfer_value": 25000000.0
   },
   {
@@ -2137,7 +2146,7 @@
     "club": "Brighton Hove",
     "position": "Midfield",
     "age": 21,
-    "goals": 2,
+    "goals": 3,
     "assists": 0,
     "transfer_value": 28000000.0
   },
@@ -2182,8 +2191,8 @@
     "club": "Brighton Hove",
     "position": "Offence",
     "age": 19,
-    "goals": 2,
-    "assists": 1,
+    "goals": 3,
+    "assists": 2,
     "transfer_value": 25000000.0
   },
   {
@@ -2271,7 +2280,7 @@
     "name": "Josh Dasilva",
     "club": "Brentford",
     "position": "Midfield",
-    "age": 27,
+    "age": 28,
     "goals": 0,
     "assists": 0,
     "transfer_value": 1500000.0
@@ -2469,7 +2478,7 @@
     "name": "Alex Toth",
     "club": "Bournemouth",
     "position": "Midfield",
-    "age": 20,
+    "age": 21,
     "goals": 0,
     "assists": 0,
     "transfer_value": 12000000.0
@@ -2488,7 +2497,7 @@
     "club": "Bournemouth",
     "position": "Offence",
     "age": 27,
-    "goals": 3,
+    "goals": 4,
     "assists": 0,
     "transfer_value": 25000000.0
   },
@@ -2497,8 +2506,8 @@
     "club": "Bournemouth",
     "position": "Offence",
     "age": 27,
-    "goals": 1,
-    "assists": 3,
+    "goals": 2,
+    "assists": 4,
     "transfer_value": 35000000.0
   },
   {
