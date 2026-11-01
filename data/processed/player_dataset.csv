@@ -26,7 +26,7 @@ Ian Maatsen,Aston Villa,Defence,24,0,0,30000000.0,17.216707972959764
 Ross Barkley,Aston Villa,Midfield,32,0,0,4000000.0,15.201805169084134
 Boubacar Kamara,Aston Villa,Midfield,26,0,0,40000000.0,17.50439003707821
 Emiliano Buendía,Aston Villa,Midfield,29,1,0,16000000.0,16.588099342704055
-John McGinn,Aston Villa,Midfield,32,1,2,13000000.0,16.380459992348886
+John McGinn,Aston Villa,Midfield,32,1,3,13000000.0,16.380459992348886
 Amadou Onana,Aston Villa,Midfield,25,0,0,45000000.0,17.622173069956816
 Lamare Bogarde,Aston Villa,Midfield,22,0,0,18000000.0,16.705882371415992
 Alysson,Aston Villa,Offence,20,1,0,10000000.0,16.118095750958314
@@ -39,8 +39,8 @@ Levi Colwill,Chelsea,Defence,23,0,0,50000000.0,17.72753358339242
 Jorrel Hato,Chelsea,Defence,20,0,0,40000000.0,17.50439003707821
 Josh Acheampong,Chelsea,Defence,20,0,0,25000000.0,17.034386422832473
 Moisés Caicedo,Chelsea,Midfield,24,0,0,100000000.0,18.420680753952364
-Cole Palmer,Chelsea,Midfield,24,2,3,100000000.0,18.420680753952364
-Romeo Lavia,Chelsea,Midfield,22,1,0,22000000.0,16.906553056777135
+Cole Palmer,Chelsea,Midfield,24,3,3,100000000.0,18.420680753952364
+Romeo Lavia,Chelsea,Midfield,22,1,1,22000000.0,16.906553056777135
 Pedro Neto,Chelsea,Offence,26,3,1,60000000.0,17.909855136853043
 João Pedro,Chelsea,Offence,25,5,3,80000000.0,18.197537205138154
 Estevao,Chelsea,Offence,19,0,0,80000000.0,18.197537205138154
@@ -91,7 +91,7 @@ Ryan Gravenberch,Liverpool,Midfield,24,0,0,80000000.0,18.197537205138154
 James McConnell,Liverpool,Midfield,22,0,0,2000000.0,14.508658238524095
 Trey Nyoni,Liverpool,Midfield,19,0,0,8000000.0,15.894952224644102
 Federico Chiesa,Liverpool,Offence,29,0,0,13000000.0,16.380459992348886
-Alexander Isak,Liverpool,Offence,27,5,0,85000000.0,18.258161826219297
+Alexander Isak,Liverpool,Offence,27,6,0,85000000.0,18.258161826219297
 Cody Gakpo,Liverpool,Offence,27,1,3,60000000.0,17.909855136853043
 Hugo Ekitike,Liverpool,Offence,24,0,0,80000000.0,18.197537205138154
 Rio Ngumoha,Liverpool,Offence,18,0,0,30000000.0,17.216707972959764
@@ -109,7 +109,7 @@ Mateo Kovačić,Man City,Midfield,32,0,0,10000000.0,16.118095750958314
 Phil Foden,Man City,Midfield,26,1,2,70000000.0,18.064005814299346
 Rayan Cherki,Man City,Midfield,23,4,2,90000000.0,18.31532023940565
 Antoine Semenyo,Man City,Offence,26,2,3,80000000.0,18.197537205138154
-Erling Haaland,Man City,Offence,26,8,0,200000000.0,19.11382792951231
+Erling Haaland,Man City,Offence,26,9,0,200000000.0,19.11382792951231
 Jeremy Doku,Man City,Offence,24,1,1,75000000.0,18.132998684833918
 Harry Maguire,Man United,Defence,33,0,0,8000000.0,15.894952224644102
 Matthijs de Ligt,Man United,Defence,27,0,0,30000000.0,17.216707972959764
@@ -128,7 +128,7 @@ Matheus Cunha,Man United,Offence,27,1,2,75000000.0,18.132998684833918
 Joshua Zirkzee,Man United,Offence,25,0,0,20000000.0,16.811242881518265
 Benjamin Šeško,Man United,Offence,23,1,0,75000000.0,18.132998684833918
 Amad Diallo,Man United,Offence,24,0,0,45000000.0,17.622173069956816
-Patrick Dorgu,Man United,Offence,21,0,0,35000000.0,17.370858648025116
+Patrick Dorgu,Man United,Offence,22,0,0,35000000.0,17.370858648025116
 Nick Pope,Newcastle,Goalkeeper,34,0,0,5000000.0,15.424948670398354
 Fabian Schär,Newcastle,Defence,34,0,0,4000000.0,15.201805169084134
 Dan Burn,Newcastle,Defence,34,0,0,4000000.0,15.201805169084134
@@ -141,17 +141,17 @@ Jacob Ramsey,Newcastle,Midfield,25,1,0,35000000.0,17.370858648025116
 Lewis Miley,Newcastle,Midfield,20,0,0,25000000.0,17.034386422832473
 Yoane Wissa,Newcastle,Offence,30,1,1,25000000.0,17.034386422832473
 Jacob Murphy,Newcastle,Offence,31,0,0,12000000.0,16.300417291085605
-Harvey Barnes,Newcastle,Offence,28,1,2,32000000.0,17.281246492014
+Harvey Barnes,Newcastle,Offence,28,2,2,32000000.0,17.281246492014
 Anthony Elanga,Newcastle,Offence,24,2,0,32000000.0,17.281246492014
-William Osula,Newcastle,Offence,23,0,0,28000000.0,17.147715103853763
+William Osula,Newcastle,Offence,23,1,1,28000000.0,17.147715103853763
 Robin Roefs,Sunderland,Goalkeeper,23,0,0,28000000.0,17.147715103853763
 Melker Ellborg,Sunderland,Goalkeeper,23,0,0,3000000.0,14.914123179965662
 Luke O'Nien,Sunderland,Defence,31,0,0,700000.0,13.45883704259595
-Nordi Mukiele,Sunderland,Defence,28,0,0,16000000.0,16.588099342704055
+Nordi Mukiele,Sunderland,Defence,29,0,0,16000000.0,16.588099342704055
 Omar Alderete,Sunderland,Defence,29,0,0,13000000.0,16.380459992348886
 Trai Hume,Sunderland,Defence,24,0,0,22000000.0,16.906553056777135
 Granit Xhaka,Sunderland,Midfield,34,0,0,8000000.0,15.894952224644102
-Enzo Le Fée,Sunderland,Midfield,26,1,1,28000000.0,17.147715103853763
+Enzo Le Fée,Sunderland,Midfield,26,2,1,28000000.0,17.147715103853763
 Habib Diarra,Sunderland,Midfield,22,0,0,35000000.0,17.370858648025116
 Noah Sadiki,Sunderland,Midfield,21,0,0,35000000.0,17.370858648025116
 Chris Rigg,Sunderland,Midfield,19,0,0,25000000.0,17.034386422832473
@@ -165,7 +165,7 @@ Antonín Kinský,Tottenham,Goalkeeper,23,0,0,15000000.0,16.52356082573315
 Ben Davies,Tottenham,Defence,33,1,0,3000000.0,14.914123179965662
 Pedro Porro,Tottenham,Defence,27,0,0,35000000.0,17.370858648025116
 Destiny Udogie,Tottenham,Defence,23,0,0,30000000.0,17.216707972959764
-Archie Gray,Tottenham,Defence,20,0,0,35000000.0,17.370858648025116
+Archie Gray,Tottenham,Defence,20,1,0,35000000.0,17.370858648025116
 Dejan Kulusevski,Tottenham,Midfield,26,0,0,17000000.0,16.648723960844016
 Rodrigo Bentancur,Tottenham,Midfield,29,0,0,20000000.0,16.811242881518265
 James Maddison,Tottenham,Midfield,29,1,0,20000000.0,16.811242881518265
@@ -174,7 +174,7 @@ Lucas Bergvall,Tottenham,Midfield,20,0,0,35000000.0,17.370858648025116
 Dominic Solanke,Tottenham,Offence,29,1,1,28000000.0,17.147715103853763
 Richarlison,Tottenham,Offence,29,0,0,25000000.0,17.034386422832473
 Mohammed Kudus,Tottenham,Offence,26,0,0,50000000.0,17.72753358339242
-Mathys Tel,Tottenham,Offence,21,0,0,22000000.0,16.906553056777135
+Mathys Tel,Tottenham,Offence,21,1,0,22000000.0,16.906553056777135
 Wilson Odobert,Tottenham,Offence,21,0,0,18000000.0,16.705882371415992
 Paddy McNair,Hull City,Defence,31,0,0,1500000.0,14.220976332738882
 John Egan,Hull City,Defence,34,0,0,1000000.0,13.815511557963774
@@ -184,7 +184,7 @@ James Justin,Leeds United,Defence,28,1,0,12000000.0,16.300417291085605
 Joe Rodon,Leeds United,Defence,29,0,0,18000000.0,16.705882371415992
 Gabriel Gudmundsson,Leeds United,Defence,27,0,0,20000000.0,16.811242881518265
 Jaka Bijol,Leeds United,Defence,27,0,0,20000000.0,16.811242881518265
-Sean Longstaff,Leeds United,Midfield,28,0,0,15000000.0,16.52356082573315
+Sean Longstaff,Leeds United,Midfield,29,0,0,15000000.0,16.52356082573315
 Ethan Ampadu,Leeds United,Midfield,26,0,0,30000000.0,17.216707972959764
 Ao Tanaka,Leeds United,Midfield,28,0,0,13000000.0,16.380459992348886
 Anton Stach,Leeds United,Midfield,27,1,0,28000000.0,17.147715103853763
@@ -234,8 +234,8 @@ Olivier Boscagli,Brighton Hove,Defence,28,0,0,15000000.0,16.52356082573315
 Lewis Dunk,Brighton Hove,Defence,34,1,0,3500000.0,15.068273812173887
 Ferdi Kadıoğlu,Brighton Hove,Defence,27,0,0,35000000.0,17.370858648025116
 Mats Wieffer,Brighton Hove,Defence,26,0,0,25000000.0,17.034386422832473
-Maxim De Cuyper,Brighton Hove,Defence,25,2,2,22000000.0,16.906553056777135
-Yasin Ayari,Brighton Hove,Midfield,23,2,1,35000000.0,17.370858648025116
+Maxim De Cuyper,Brighton Hove,Defence,25,2,3,22000000.0,16.906553056777135
+Yasin Ayari,Brighton Hove,Midfield,23,3,1,35000000.0,17.370858648025116
 Diego Gómez,Brighton Hove,Midfield,23,1,2,25000000.0,17.034386422832473
 Jack Hinshelwood,Brighton Hove,Midfield,21,3,0,28000000.0,17.147715103853763
 Malick Yalcouyé,Brighton Hove,Midfield,20,2,0,12000000.0,16.300417291085605
@@ -260,7 +260,7 @@ Fabio Carvalho,Brentford,Midfield,24,1,0,8000000.0,15.894952224644102
 Antoni Milambo,Brentford,Midfield,21,0,0,15000000.0,16.52356082573315
 Yegor Yarmolyuk,Brentford,Midfield,22,1,1,32000000.0,17.281246492014
 Kevin Schade,Brentford,Offence,24,3,0,35000000.0,17.370858648025116
-Dango Ouattara,Brentford,Offence,24,0,0,35000000.0,17.370858648025116
+Dango Ouattara,Brentford,Offence,24,1,0,35000000.0,17.370858648025116
 Fraser Forster,Bournemouth,Goalkeeper,38,0,0,400000.0,12.899222326086994
 Adam Smith,Bournemouth,Defence,35,0,0,300000.0,12.611541086966115
 James Hill,Bournemouth,Defence,24,0,0,23000000.0,16.951004817371683
@@ -270,21 +270,21 @@ Adrien Truffert,Bournemouth,Defence,24,0,0,30000000.0,17.216707972959764
 Julio Soler,Bournemouth,Defence,21,0,0,8000000.0,15.894952224644102
 Veljko Milosavljević,Bournemouth,Defence,19,0,0,20000000.0,16.811242881518265
 Lewis Cook,Bournemouth,Midfield,29,0,0,11000000.0,16.213405921671733
-Justin Kluivert,Bournemouth,Midfield,27,1,0,25000000.0,17.034386422832473
+Justin Kluivert,Bournemouth,Midfield,27,1,2,25000000.0,17.034386422832473
 Ryan Christie,Bournemouth,Midfield,31,0,0,8000000.0,15.894952224644102
 Tyler Adams,Bournemouth,Midfield,27,0,0,25000000.0,17.034386422832473
 Alex Scott,Bournemouth,Midfield,23,1,0,50000000.0,17.72753358339242
 Alex Toth,Bournemouth,Midfield,21,0,0,12000000.0,16.300417291085605
 David Brooks,Bournemouth,Offence,29,0,0,12000000.0,16.300417291085605
-Marcus Tavernier,Bournemouth,Offence,27,4,0,25000000.0,17.034386422832473
-Evanilson,Bournemouth,Offence,27,2,4,35000000.0,17.370858648025116
-Amine Adli,Bournemouth,Offence,26,0,0,20000000.0,16.811242881518265
-Rayan,Bournemouth,Offence,20,0,0,60000000.0,17.909855136853043
-Gabriel Magalhães,Arsenal,Defence,28,0,0,75000000.0,18.132998684833918
+Marcus Tavernier,Bournemouth,Offence,27,5,0,25000000.0,17.034386422832473
+Evanilson,Bournemouth,Offence,27,4,4,35000000.0,17.370858648025116
+Amine Adli,Bournemouth,Offence,26,1,0,20000000.0,16.811242881518265
+Rayan,Bournemouth,Offence,20,1,0,60000000.0,17.909855136853043
+Gabriel Magalhães,Arsenal,Defence,28,1,0,75000000.0,18.132998684833918
 Victor Nilsson-Lindelöf,Aston Villa,Defence,32,0,0,5000000.0,15.424948670398354
 Jamie Bynoe-Gittens,Chelsea,Offence,22,0,0,30000000.0,17.216707972959764
 Vitalii Mykolenko,Everton,Defence,27,0,0,25000000.0,17.034386422832473
-Joshua King,Fulham,Midfield,19,2,0,25000000.0,17.034386422832473
+Joshua King,Fulham,Midfield,19,2,1,25000000.0,17.034386422832473
 Alisson Becker,Liverpool,Goalkeeper,34,0,0,15000000.0,16.52356082573315
 Valentino Livramento,Newcastle,Defence,23,0,0,45000000.0,17.622173069956816
 Reinildo,Sunderland,Defence,32,0,0,4000000.0,15.201805169084134
@@ -295,5 +295,5 @@ John,Nottingham,Goalkeeper,30,0,0,5000000.0,15.424948670398354
 Thomas McGill,Brighton Hove,Goalkeeper,26,0,0,500000.0,13.122365377402328
 Yankubah Minteh,Brighton Hove,Offence,22,0,0,45000000.0,17.622173069956816
 Hákon Rafn Valdimarsson,Brentford,Goalkeeper,25,0,0,2500000.0,14.731801689838349
-Thiago,Brentford,Offence,25,1,1,65000000.0,17.989897843244528
+Thiago,Brentford,Offence,25,2,2,65000000.0,17.989897843244528
 Đorđe Petrović,Bournemouth,Goalkeeper,27,0,0,28000000.0,17.147715103853763

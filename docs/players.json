@@ -248,7 +248,7 @@
     "position": "Midfield",
     "age": 32,
     "goals": 1,
-    "assists": 2,
+    "assists": 3,
     "transfer_value": 13000000.0
   },
   {
@@ -364,7 +364,7 @@
     "club": "Chelsea",
     "position": "Midfield",
     "age": 24,
-    "goals": 2,
+    "goals": 3,
     "assists": 3,
     "transfer_value": 100000000.0
   },
@@ -374,7 +374,7 @@
     "position": "Midfield",
     "age": 22,
     "goals": 1,
-    "assists": 0,
+    "assists": 1,
     "transfer_value": 22000000.0
   },
   {
@@ -832,7 +832,7 @@
     "club": "Liverpool",
     "position": "Offence",
     "age": 27,
-    "goals": 5,
+    "goals": 6,
     "assists": 0,
     "transfer_value": 85000000.0
   },
@@ -994,7 +994,7 @@
     "club": "Man City",
     "position": "Offence",
     "age": 26,
-    "goals": 8,
+    "goals": 9,
     "assists": 0,
     "transfer_value": 200000000.0
   },
@@ -1164,7 +1164,7 @@
     "name": "Patrick Dorgu",
     "club": "Man United",
     "position": "Offence",
-    "age": 21,
+    "age": 22,
     "goals": 0,
     "assists": 0,
     "transfer_value": 35000000.0
@@ -1282,7 +1282,7 @@
     "club": "Newcastle",
     "position": "Offence",
     "age": 28,
-    "goals": 1,
+    "goals": 2,
     "assists": 2,
     "transfer_value": 32000000.0
   },
@@ -1300,8 +1300,8 @@
     "club": "Newcastle",
     "position": "Offence",
     "age": 23,
-    "goals": 0,
-    "assists": 0,
+    "goals": 1,
+    "assists": 1,
     "transfer_value": 28000000.0
   },
   {
@@ -1335,7 +1335,7 @@
     "name": "Nordi Mukiele",
     "club": "Sunderland",
     "position": "Defence",
-    "age": 28,
+    "age": 29,
     "goals": 0,
     "assists": 0,
     "transfer_value": 16000000.0
@@ -1372,7 +1372,7 @@
     "club": "Sunderland",
     "position": "Midfield",
     "age": 26,
-    "goals": 1,
+    "goals": 2,
     "assists": 1,
     "transfer_value": 28000000.0
   },
@@ -1498,7 +1498,7 @@
     "club": "Tottenham",
     "position": "Defence",
     "age": 20,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 35000000.0
   },
@@ -1579,7 +1579,7 @@
     "club": "Tottenham",
     "position": "Offence",
     "age": 21,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 22000000.0
   },
@@ -1668,7 +1668,7 @@
     "name": "Sean Longstaff",
     "club": "Leeds United",
     "position": "Midfield",
-    "age": 28,
+    "age": 29,
     "goals": 0,
     "assists": 0,
     "transfer_value": 15000000.0
@@ -2120,7 +2120,7 @@
     "position": "Defence",
     "age": 25,
     "goals": 2,
-    "assists": 2,
+    "assists": 3,
     "transfer_value": 22000000.0
   },
   {
@@ -2128,7 +2128,7 @@
     "club": "Brighton Hove",
     "position": "Midfield",
     "age": 23,
-    "goals": 2,
+    "goals": 3,
     "assists": 1,
     "transfer_value": 35000000.0
   },
@@ -2353,7 +2353,7 @@
     "club": "Brentford",
     "position": "Offence",
     "age": 24,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 35000000.0
   },
@@ -2444,7 +2444,7 @@
     "position": "Midfield",
     "age": 27,
     "goals": 1,
-    "assists": 0,
+    "assists": 2,
     "transfer_value": 25000000.0
   },
   {
@@ -2497,7 +2497,7 @@
     "club": "Bournemouth",
     "position": "Offence",
     "age": 27,
-    "goals": 4,
+    "goals": 5,
     "assists": 0,
     "transfer_value": 25000000.0
   },
@@ -2506,7 +2506,7 @@
     "club": "Bournemouth",
     "position": "Offence",
     "age": 27,
-    "goals": 2,
+    "goals": 4,
     "assists": 4,
     "transfer_value": 35000000.0
   },
@@ -2515,7 +2515,7 @@
     "club": "Bournemouth",
     "position": "Offence",
     "age": 26,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 20000000.0
   },
@@ -2524,7 +2524,7 @@
     "club": "Bournemouth",
     "position": "Offence",
     "age": 20,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 60000000.0
   },
@@ -2533,7 +2533,7 @@
     "club": "Arsenal",
     "position": "Defence",
     "age": 28,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 75000000.0
   },
@@ -2570,7 +2570,7 @@
     "position": "Midfield",
     "age": 19,
     "goals": 2,
-    "assists": 0,
+    "assists": 1,
     "transfer_value": 25000000.0
   },
   {
@@ -2668,8 +2668,8 @@
     "club": "Brentford",
     "position": "Offence",
     "age": 25,
-    "goals": 1,
-    "assists": 1,
+    "goals": 2,
+    "assists": 2,
     "transfer_value": 65000000.0
   },
   {
