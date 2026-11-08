@@ -8,12 +8,12 @@ Piero Hincapié,Arsenal,Defence,24,0,0,50000000.0,17.72753358339242
 Riccardo Calafiori,Arsenal,Defence,24,1,2,55000000.0,17.822843761378564
 Cristhian Mosquera,Arsenal,Defence,22,0,0,40000000.0,17.50439003707821
 Eberechi Eze,Arsenal,Midfield,28,0,0,65000000.0,17.989897843244528
-Martin Ødegaard,Arsenal,Midfield,27,2,0,65000000.0,17.989897843244528
+Martin Ødegaard,Arsenal,Midfield,27,3,0,65000000.0,17.989897843244528
 Mikel Merino,Arsenal,Midfield,30,0,0,25000000.0,17.034386422832473
 Declan Rice,Arsenal,Midfield,27,0,0,120000000.0,18.603002309079653
 Martín Zubimendi,Arsenal,Midfield,27,0,0,75000000.0,18.132998684833918
 Myles Lewis-Skelly,Arsenal,Midfield,20,0,0,45000000.0,17.622173069956816
-Kai Havertz,Arsenal,Offence,27,2,0,55000000.0,17.822843761378564
+Kai Havertz,Arsenal,Offence,27,3,0,55000000.0,17.822843761378564
 Viktor Gyökeres,Arsenal,Offence,28,0,0,65000000.0,17.989897843244528
 Bukayo Saka,Arsenal,Offence,25,3,0,110000000.0,18.5159909328476
 Noni Madueke,Arsenal,Offence,24,1,0,50000000.0,17.72753358339242
@@ -38,7 +38,7 @@ Malo Gusto,Chelsea,Defence,23,0,0,35000000.0,17.370858648025116
 Levi Colwill,Chelsea,Defence,23,0,0,50000000.0,17.72753358339242
 Jorrel Hato,Chelsea,Defence,20,0,0,40000000.0,17.50439003707821
 Josh Acheampong,Chelsea,Defence,20,0,0,25000000.0,17.034386422832473
-Moisés Caicedo,Chelsea,Midfield,24,0,0,100000000.0,18.420680753952364
+Moisés Caicedo,Chelsea,Midfield,25,0,0,100000000.0,18.420680753952364
 Cole Palmer,Chelsea,Midfield,24,3,3,100000000.0,18.420680753952364
 Romeo Lavia,Chelsea,Midfield,22,1,1,22000000.0,16.906553056777135
 Pedro Neto,Chelsea,Offence,26,3,1,60000000.0,17.909855136853043
@@ -51,12 +51,12 @@ Michael Keane,Everton,Defence,33,0,0,3000000.0,14.914123179965662
 Jarrad Branthwaite,Everton,Defence,24,0,0,40000000.0,17.50439003707821
 Jake O'Brien,Everton,Defence,25,0,0,18000000.0,16.705882371415992
 James Garner,Everton,Midfield,25,0,0,45000000.0,17.622173069956816
-Kiernan Dewsbury Hall,Everton,Midfield,28,2,1,35000000.0,17.370858648025116
+Kiernan Dewsbury Hall,Everton,Midfield,28,3,1,35000000.0,17.370858648025116
 Carlos Alcaraz,Everton,Midfield,23,0,0,15000000.0,16.52356082573315
 Merlin Röhl,Everton,Midfield,24,0,0,16000000.0,16.588099342704055
 Harrison Armstrong,Everton,Midfield,19,0,0,12000000.0,16.300417291085605
 Jack Grealish,Everton,Offence,31,0,0,20000000.0,16.811242881518265
-Thierno Barry,Everton,Offence,26,3,0,30000000.0,17.216707972959764
+Thierno Barry,Everton,Offence,26,6,1,30000000.0,17.216707972959764
 Tyler Dibling,Everton,Offence,20,0,0,17000000.0,16.648723960844016
 Bernd Leno,Fulham,Goalkeeper,34,0,0,6000000.0,15.607270193858982
 Benjamin Lecomte,Fulham,Goalkeeper,35,0,0,800000.0,13.592368256649284
@@ -72,7 +72,7 @@ Tom Cairney,Fulham,Midfield,35,0,0,500000.0,13.122365377402328
 Harrison Reed,Fulham,Midfield,31,0,0,2000000.0,14.508658238524095
 Sander Berge,Fulham,Midfield,28,0,0,25000000.0,17.034386422832473
 Emile Smith Rowe,Fulham,Midfield,26,0,0,20000000.0,16.811242881518265
-Rodrigo Muniz,Fulham,Offence,25,0,0,20000000.0,16.811242881518265
+Rodrigo Muniz,Fulham,Offence,25,1,0,20000000.0,16.811242881518265
 Jonah Kusi-Asare,Fulham,Offence,19,0,0,3000000.0,14.914123179965662
 Freddie Woodman,Liverpool,Goalkeeper,29,0,0,3000000.0,14.914123179965662
 Giorgi Mamardashvili,Liverpool,Goalkeeper,26,0,0,28000000.0,17.147715103853763
@@ -80,7 +80,7 @@ Harvey Davies,Liverpool,Goalkeeper,23,0,0,500000.0,13.122365377402328
 Joe Gomez,Liverpool,Defence,29,0,0,13000000.0,16.380459992348886
 Virgil van Dijk,Liverpool,Defence,35,0,0,15000000.0,16.52356082573315
 Jeremie Frimpong,Liverpool,Defence,25,0,0,35000000.0,17.370858648025116
-Milos Kerkez,Liverpool,Defence,22,0,0,35000000.0,17.370858648025116
+Milos Kerkez,Liverpool,Defence,23,0,0,35000000.0,17.370858648025116
 Conor Bradley,Liverpool,Defence,23,0,0,25000000.0,17.034386422832473
 Giovanni Leoni,Liverpool,Defence,19,0,0,25000000.0,17.034386422832473
 Wataru Endō,Liverpool,Midfield,33,0,0,4000000.0,15.201805169084134
@@ -107,7 +107,7 @@ Nico O'Reilly,Man City,Defence,21,0,0,70000000.0,18.064005814299346
 Abdukodir Khusanov,Man City,Defence,22,0,0,50000000.0,17.72753358339242
 Mateo Kovačić,Man City,Midfield,32,0,0,10000000.0,16.118095750958314
 Phil Foden,Man City,Midfield,26,1,2,70000000.0,18.064005814299346
-Rayan Cherki,Man City,Midfield,23,4,2,90000000.0,18.31532023940565
+Rayan Cherki,Man City,Midfield,23,5,2,90000000.0,18.31532023940565
 Antoine Semenyo,Man City,Offence,26,2,3,80000000.0,18.197537205138154
 Erling Haaland,Man City,Offence,26,9,0,200000000.0,19.11382792951231
 Jeremy Doku,Man City,Offence,24,1,1,75000000.0,18.132998684833918
@@ -140,7 +140,7 @@ Joelinton,Newcastle,Midfield,30,0,0,25000000.0,17.034386422832473
 Jacob Ramsey,Newcastle,Midfield,25,1,0,35000000.0,17.370858648025116
 Lewis Miley,Newcastle,Midfield,20,0,0,25000000.0,17.034386422832473
 Yoane Wissa,Newcastle,Offence,30,1,1,25000000.0,17.034386422832473
-Jacob Murphy,Newcastle,Offence,31,0,0,12000000.0,16.300417291085605
+Jacob Murphy,Newcastle,Offence,31,1,1,12000000.0,16.300417291085605
 Harvey Barnes,Newcastle,Offence,28,2,2,32000000.0,17.281246492014
 Anthony Elanga,Newcastle,Offence,24,2,0,32000000.0,17.281246492014
 William Osula,Newcastle,Offence,23,1,1,28000000.0,17.147715103853763
@@ -193,7 +193,7 @@ Brenden Aaronson,Leeds United,Midfield,26,0,0,22000000.0,16.906553056777135
 Dominic Calvert-Lewin,Leeds United,Offence,29,3,1,22000000.0,16.906553056777135
 Lukas Nmecha,Leeds United,Offence,27,0,0,10000000.0,16.118095750958314
 Daniel James,Leeds United,Offence,28,0,0,10000000.0,16.118095750958314
-Noah Okafor,Leeds United,Offence,26,1,0,25000000.0,17.034386422832473
+Noah Okafor,Leeds United,Offence,26,2,0,25000000.0,17.034386422832473
 Dara O'Shea,Ipswich Town,Defence,27,1,0,16000000.0,16.588099342704055
 Jack Taylor,Ipswich Town,Midfield,28,0,0,3000000.0,14.914123179965662
 Marcelino Núñez,Ipswich Town,Midfield,26,0,0,14000000.0,16.454567959008102
@@ -204,12 +204,12 @@ Ola Aina,Nottingham,Defence,30,0,0,18000000.0,16.705882371415992
 Neco Williams,Nottingham,Defence,25,1,0,28000000.0,17.147715103853763
 Nicolò Savona,Nottingham,Defence,23,0,0,15000000.0,16.52356082573315
 Murillo,Nottingham,Defence,24,0,0,50000000.0,17.72753358339242
-Morgan Gibbs-White,Nottingham,Midfield,26,1,2,70000000.0,18.064005814299346
+Morgan Gibbs-White,Nottingham,Midfield,26,1,3,70000000.0,18.064005814299346
 Ryan Yates,Nottingham,Midfield,28,0,0,7000000.0,15.76142084987672
 Ibrahim Sangaré,Nottingham,Midfield,28,0,0,20000000.0,16.811242881518265
 Nicolás Domínguez,Nottingham,Midfield,28,0,0,15000000.0,16.52356082573315
 James McAtee,Nottingham,Midfield,24,0,0,18000000.0,16.705882371415992
-Callum Hudson-Odoi,Nottingham,Offence,25,0,0,30000000.0,17.216707972959764
+Callum Hudson-Odoi,Nottingham,Offence,26,0,0,30000000.0,17.216707972959764
 Chris Wood,Nottingham,Offence,34,0,0,5000000.0,15.424948670398354
 Dan Ndoye,Nottingham,Offence,26,2,0,32000000.0,17.281246492014
 Igor Jesus,Nottingham,Offence,25,1,0,25000000.0,17.034386422832473

@@ -85,7 +85,7 @@
     "club": "Arsenal",
     "position": "Midfield",
     "age": 27,
-    "goals": 2,
+    "goals": 3,
     "assists": 0,
     "transfer_value": 65000000.0
   },
@@ -130,7 +130,7 @@
     "club": "Arsenal",
     "position": "Offence",
     "age": 27,
-    "goals": 2,
+    "goals": 3,
     "assists": 0,
     "transfer_value": 55000000.0
   },
@@ -354,7 +354,7 @@
     "name": "Mois\u00e9s Caicedo",
     "club": "Chelsea",
     "position": "Midfield",
-    "age": 24,
+    "age": 25,
     "goals": 0,
     "assists": 0,
     "transfer_value": 100000000.0
@@ -472,7 +472,7 @@
     "club": "Everton",
     "position": "Midfield",
     "age": 28,
-    "goals": 2,
+    "goals": 3,
     "assists": 1,
     "transfer_value": 35000000.0
   },
@@ -517,8 +517,8 @@
     "club": "Everton",
     "position": "Offence",
     "age": 26,
-    "goals": 3,
-    "assists": 0,
+    "goals": 6,
+    "assists": 1,
     "transfer_value": 30000000.0
   },
   {
@@ -661,7 +661,7 @@
     "club": "Fulham",
     "position": "Offence",
     "age": 25,
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "transfer_value": 20000000.0
   },
@@ -732,7 +732,7 @@
     "name": "Milos Kerkez",
     "club": "Liverpool",
     "position": "Defence",
-    "age": 22,
+    "age": 23,
     "goals": 0,
     "assists": 0,
     "transfer_value": 35000000.0
@@ -976,7 +976,7 @@
     "club": "Man City",
     "position": "Midfield",
     "age": 23,
-    "goals": 4,
+    "goals": 5,
     "assists": 2,
     "transfer_value": 90000000.0
   },
@@ -1273,8 +1273,8 @@
     "club": "Newcastle",
     "position": "Offence",
     "age": 31,
-    "goals": 0,
-    "assists": 0,
+    "goals": 1,
+    "assists": 1,
     "transfer_value": 12000000.0
   },
   {
@@ -1750,7 +1750,7 @@
     "club": "Leeds United",
     "position": "Offence",
     "age": 26,
-    "goals": 1,
+    "goals": 2,
     "assists": 0,
     "transfer_value": 25000000.0
   },
@@ -1850,7 +1850,7 @@
     "position": "Midfield",
     "age": 26,
     "goals": 1,
-    "assists": 2,
+    "assists": 3,
     "transfer_value": 70000000.0
   },
   {
@@ -1893,7 +1893,7 @@
     "name": "Callum Hudson-Odoi",
     "club": "Nottingham",
     "position": "Offence",
-    "age": 25,
+    "age": 26,
     "goals": 0,
     "assists": 0,
     "transfer_value": 30000000.0
